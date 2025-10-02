@@ -2,7 +2,9 @@
 {
     public static void Main(string[] args)
     {
-        int samFavoriteNumber = 42;
+        int samFavoriteNumber;
+        samFavoriteNumber = 42;
         int brandonFavoriteNumber;
+        brandonFavoriteNumber = 13;
     }
 }
