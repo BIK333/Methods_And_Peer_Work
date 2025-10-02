@@ -10,12 +10,12 @@
         brandonFavoriteNumber = 13;
 
         public int Subtract(int a, int b)
-    {
-        int diff = b - a;
-        return diff;
-    }
+        {
+            int diff = b - a;
+            return diff;
+        }
     //start of our actual program
     Console.WriteLine("Sam's favorite number is " + samFavoriteNumber);
-        Console.WriteLine("Brandon's favorite number is " + brandonFavoriteNumber);
+    Console.WriteLine("Brandon's favorite number is " + brandonFavoriteNumber);
     }
 }
