@@ -1,17 +1,21 @@
-﻿public class Program
+﻿using System.Diagnostics.CodeAnalysis;
+
+public class Program
 {
-    public static int Add(int samFavoriteNumber, int brandonFavoriteNumber)
+    public static int Add(int samNumber1, int brandonNumber1)
     {
-        return samFavoriteNumber + brandonFavoriteNumber;
+        return samNumber1 + brandonNumber1;
     }
     public static void Main(string[] args)
     {
         int samFavoriteNumber;
         int brandonFavoriteNumber;
+        int answer = 0;
 
         //intialize
         samFavoriteNumber = 42;
         brandonFavoriteNumber = 13;
+        answer = Add(42, 13);
 
         public int Subtract(int a, int b)
         {
@@ -20,6 +24,7 @@
         //start of our actual program
         Console.WriteLine("Sam's favorite number is " + samFavoriteNumber);
         Console.WriteLine("Brandon's favorite number is " + brandonFavoriteNumber);
-       
-    }
+        Console.WriteLine("When we add our favorite numbers together we get: " + answer);
+
+}
 }
