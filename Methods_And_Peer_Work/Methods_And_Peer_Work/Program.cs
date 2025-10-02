@@ -1,6 +1,6 @@
 ﻿public class Program
 {
-    public static void Add(int samFavoriteNumber, int brandonFavoriteNumber)
+    public static int Add(int samFavoriteNumber, int brandonFavoriteNumber)
     {
         return samFavoriteNumber + brandonFavoriteNumber;
     }
@@ -17,10 +17,9 @@
         {
             return (b-a);
         }
-    //start of our actual program
-    Console.WriteLine("Sam's favorite number is " + samFavoriteNumber);
-    Console.WriteLine("Brandon's favorite number is " + brandonFavoriteNumber);
+        //start of our actual program
+        Console.WriteLine("Sam's favorite number is " + samFavoriteNumber);
+        Console.WriteLine("Brandon's favorite number is " + brandonFavoriteNumber);
+       
     }
-
-
 }
