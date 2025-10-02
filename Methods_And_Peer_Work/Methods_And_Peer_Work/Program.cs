@@ -5,7 +5,7 @@
         int samFavoriteNumber;
         int brandonFavoriteNumber;
 
-        //Intialization
+        //intialize
         samFavoriteNumber = 42;
         brandonFavoriteNumber = 13;
     }
