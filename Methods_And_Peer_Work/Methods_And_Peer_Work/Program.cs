@@ -15,7 +15,7 @@
 
         public int Subtract(int a, int b)
         {
-            return (b-a);
+            return (a-b);
         }
         //start of our actual program
         Console.WriteLine("Sam's favorite number is " + samFavoriteNumber);
