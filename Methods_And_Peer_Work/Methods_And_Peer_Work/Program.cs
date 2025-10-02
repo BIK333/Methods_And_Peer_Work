@@ -1,8 +1,7 @@
-﻿Console.WriteLine("Hello, World!");
-public class Program
+﻿public class Program
 {
     public static void Main(string[] args)
     {
-
+        int samFavoriteNumber = 42;
     }
 }
